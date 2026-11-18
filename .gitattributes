@@ -1,0 +1,4 @@
+# Keep eval-set hashes stable across Windows/Linux CI.
+*.jsonl text eol=lf
+src/data/eval/*.json text eol=lf
+src/reports/*.json text eol=lf
